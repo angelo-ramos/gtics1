@@ -25,6 +25,7 @@ public class JuegosController {
         return "juegos/lista";
     }
 
+    @GetMapping("/editar")
     public String editarJuegos(){
         return "distribuidoras/lista";
     }
